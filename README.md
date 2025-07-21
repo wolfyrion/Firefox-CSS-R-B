@@ -14,16 +14,19 @@ Features include:
 > ⚠️ **Note:** `userChrome.css` is an advanced customization and requires manual setup. Firefox does not support it natively by default anymore, so follow the steps carefully.
 
 ### 1. Enable `userChrome.css` Support in Firefox
+
 1. Open Firefox and go to `about:config`
 2. Search for:  
 toolkit.legacyUserProfileCustomizations.stylesheets
 3. Set it to `true`.
 
 ### 2. Locate Your Firefox Profile Folder
+
 1. Go to `about:support`
 2. Under **"Profile Folder"**, click **"Open Folder"** (or **"Show in Finder"** on macOS)
 
 ### 3. Set Up the Chrome Folder
+
 1. Inside your profile folder, create a new folder named `chrome` (if it doesn't already exist)
 2. Place the `userChrome.css` file into this `chrome` folder
 
@@ -33,12 +36,26 @@ Your Firefox Profile/
 
 
 ### 4. Restart Firefox
+
 Close and reopen Firefox to apply your new custom theme.
 
+
 ### 5. Apply the Recommended Firefox Theme (Optional but Recommended)
+
 To make the UI **look awesome**, install this matching theme from Firefox Add-ons:
 
 🎨 **[Black Red Mood](https://addons.mozilla.org/en-US/firefox/addon/black-red-mood/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)**
+
+
+### 6. Additional Tweaks (Optional)
+
+To improve usability, apply the following changes in `about:config`:
+
+- **Double-click tab to close**:  
+Set `browser.tabs.closeTabByDblclick` to `true`
+
+- **Keep last tab open (don’t close window)**:  
+Set `browser.tabs.closeWindowWithLastTab` to `false`
 
 ---
 
