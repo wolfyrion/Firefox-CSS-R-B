@@ -1,13 +1,39 @@
 # 🌙 userChrome.css – Custom Firefox UI Theme
 
-A modern, dark/red **userChrome.css** theme inspired by **Proton**, **Alpenglow**, and **Compact UI** aesthetics.  
-Features include:
-- **Tabs below the address bar**
-- **Compact, clean layout**
-- **Red-accented dark theme**
-- **Pinned tab enhancements**
-- **Hover styling**
-- **New tab button customization**
+### 🎨 Theme Features
+
+This `userChrome.css` provides a **custom dark/red UI experience** with strong visual consistency and modern usability.
+
+#### 🧱 Layout & Structure
+- Tabs below the navigation bar (classic placement reminiscent of older Firefox/Australis)
+- Australis-style curved tabs with a modern touch
+- Compact tab bar with increased height and spacing
+- Removal of titlebar elements and default spacers
+
+#### 🎨 Color & Styling
+- Custom red/dark color palette:
+  - Dark shades for background and inactive elements
+  - Deep red for highlights, active states, and hovers
+- Rounded tabs on top only for a sleek look
+- Red-accented active tab with border highlight
+- Hover effect on inactive tabs with red border and lighter background
+- Clear contrast between active and inactive tabs
+
+#### ➕ Tab Enhancements
+- New tab ("+") button styled to match theme
+- Pinned tabs supported and styled
+- Tab text styling for better readability and no cutoff for descenders
+
+#### 📑 Bookmarks & Library Panel
+- Flat, red hover and selection backgrounds
+- Dark background for bookmarks menus
+- Square corners (no rounded menus for a sharper UI feel)
+
+#### 🖱️ Context Menus (Right-Click Menus)
+- Dark background with red hover/selection
+- Flat, square-cornered design
+- Full context menu styling for consistent UI
+
 
 ## 🔧 Installation Guide
 
