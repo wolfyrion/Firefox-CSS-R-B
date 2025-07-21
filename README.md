@@ -3,6 +3,7 @@
 ### 🎨 Theme Features
 
 This `userChrome.css` provides a **custom dark/red UI experience** with strong visual consistency and modern usability.
+<img width="1567" height="369" alt="image" src="https://github.com/user-attachments/assets/f0ea2c00-d56d-40a1-8545-1da18e69d01c" />
 
 #### 🧱 Layout & Structure
 - Tabs below the navigation bar (classic placement reminiscent of older Firefox/Australis)
