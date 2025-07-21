@@ -1,0 +1,200 @@
+/* Tabs below nav bar - Black & Red Australis Curved Tabs Created By Wolfyrion*/
+
+:root {
+  --black-primary: #0d0d0d;
+  --black-secondary: #1a1a1a;
+  --black-tertiary: #2a2a2a;
+
+  --red-primary: #660000;
+  --red-secondary: #550000;
+  --red-tertiary: #3a0000;
+
+  --text-primary: #f0f0f0;
+  --text-secondary: #cccccc;
+
+  /* Only increase tab height */
+  --tab-height: 36px;
+  --tab-curve: 6px;
+  --tab-border-thickness: 1px;
+}
+
+/* Tabs below nav bar */
+#navigator-toolbox {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+#nav-bar {
+  order: 1 !important;
+}
+
+#PersonalToolbar {
+  order: 2 !important;
+}
+
+#TabsToolbar {
+  order: 3 !important;
+  background-color: var(--black-primary) !important;
+  border-top: var(--tab-border-thickness) solid var(--black-tertiary) !important;
+  padding-inline-start: 4px !important;
+  min-height: var(--tab-height) !important;
+  height: var(--tab-height) !important;
+  display: flex !important;
+  align-items: center !important;
+  visibility: visible !important;
+  z-index: 2 !important;
+}
+
+/* Remove default titlebar spacer */
+.titlebar-spacer,
+#TabsToolbar .titlebar-buttonbox-container {
+  display: none !important;
+}
+
+/* Each tab */
+.tabbrowser-tab {
+  min-height: var(--tab-height) !important;
+  max-height: var(--tab-height) !important;
+  margin: 0 4px !important;
+  padding: 0 !important;
+  border-radius: var(--tab-curve) var(--tab-curve) 0 0 !important;
+  overflow: hidden !important;
+  position: relative;
+}
+
+/* Background container of the tab */
+.tab-background {
+  min-height: var(--tab-height) !important;
+  max-height: var(--tab-height) !important;
+  margin: 0 !important;
+  padding: 0 8px !important; /* default horizontal padding */
+  border: 1px solid transparent !important;
+  border-radius: var(--tab-curve) var(--tab-curve) 0 0 !important;
+  background-color: var(--black-secondary) !important; /* default inactive tab */
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  box-sizing: border-box !important;
+  color: var(--text-secondary) !important;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+  z-index: 0;
+}
+
+/* Active tab background */
+.tabbrowser-tab[selected="true"] > .tab-background {
+  background-color: var(--red-primary) !important;
+  border-color: var(--red-secondary) !important;
+  color: var(--text-primary) !important;
+  z-index: 10 !important;
+}
+
+/* Hover inactive tabs */
+.tabbrowser-tab:not([selected="true"]):hover > .tab-background {
+  background-color: var(--black-tertiary) !important;
+  border-color: var(--red-tertiary) !important;
+  color: var(--text-primary) !important;
+}
+
+/* Tab text */
+.tab-content {
+  padding: 0 4px !important;
+  margin: 0 !important;
+  min-height: var(--tab-height) !important;
+  max-height: var(--tab-height) !important;
+  line-height: var(--tab-height) !important;
+  display: flex !important;
+  align-items: center !important;
+  font-size: 0.9em !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: inherit !important;
+}
+
+/* New tab "+" button distinct */
+.tabbrowser-tab[fadein] > .tab-background {
+  background-color: var(--black-secondary) !important;
+  border-color: transparent !important;
+  color: var(--text-secondary) !important;
+  z-index: 5 !important;
+}
+
+.tabbrowser-tab[fadein]:hover > .tab-background {
+  background-color: var(--black-tertiary) !important;
+  border-color: transparent !important;
+  color: var(--text-primary) !important;
+}
+
+/* Prevent text cutoff for descenders */
+.tab-content > .tab-label {
+  overflow: visible !important;
+  padding-bottom: 3px !important;
+}
+
+/* ========== BOOKMARKS MENU (Library Panel & Bookmarks Toolbar) ========== */
+
+/* Hover background square & red */
+#PlacesContextMenu menuitem:hover,
+#PlacesContextMenu menupopup > menuitem:hover,
+#bookmarks-view treechildren::-moz-tree-row:hover {
+  background-color: var(--red-primary) !important;
+  border-radius: 0 !important;   /* square corners */
+  color: var(--text-primary) !important;
+}
+
+/* Selected background square & red */
+#PlacesContextMenu menuitem[selected],
+#PlacesContextMenu menupopup > menuitem[selected],
+#bookmarks-view treechildren::-moz-tree-row(selected) {
+  background-color: var(--red-primary) !important;
+  border-radius: 0 !important;   /* square corners */
+  color: var(--text-primary) !important;
+}
+
+/* ========== CONTEXT MENUS (Right-click menus) ========== */
+
+/* Hover effect */
+menupopup > menuitem:hover,
+menupopup > menu:hover,
+menupopup > menuitem:focus,
+menupopup > menu:focus {
+  background-color: var(--red-primary) !important;
+  border-radius: 0 !important;  /* square corners */
+  color: var(--text-primary) !important;
+}
+
+/* Selected/focused item */
+menupopup > menuitem[selected],
+menupopup > menu[selected] {
+  background-color: var(--red-primary) !important;
+  border-radius: 0 !important;
+  color: var(--text-primary) !important;
+}
+/* Make context menu background dark */
+menupopup {
+  background-color: var(--black-primary) !important;
+  color: var(--text-primary) !important;
+  border: 1px solid var(--black-tertiary) !important;
+  border-radius: 0 !important; /* keep square if you want */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.8) !important;
+}
+
+/* Context menu items normal */
+menupopup > menuitem,
+menupopup > menu {
+  background-color: transparent !important;
+  color: var(--text-primary) !important;
+}
+
+/* Hover and selected states (red & square) */
+menupopup > menuitem:hover,
+menupopup > menu:hover,
+menupopup > menuitem:focus,
+menupopup > menu:focus,
+menupopup > menuitem[selected],
+menupopup > menu[selected] {
+  background-color: var(--red-primary) !important;
+  border-radius: 0 !important;
+  color: var(--text-primary) !important;
+}
+
