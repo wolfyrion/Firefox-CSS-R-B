@@ -35,17 +35,23 @@ Your Firefox Profile/
 ### 4. Restart Firefox
 Close and reopen Firefox to apply your new custom theme.
 
+### 5. Apply the Recommended Firefox Theme (Optional but Recommended)
+To make the UI **look awesome**, install this matching theme from Firefox Add-ons:
+
+🎨 **[Black Red Mood](https://addons.mozilla.org/en-US/firefox/addon/black-red-mood/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)**
+
+---
+
 ## ❤️ Support & Donations
 
 If you like this theme and want to support its development, you can donate via PayPal:
 
 **🔗 [Donate to kyrik@gmail.com](https://www.paypal.com/donate/?business=kyrik@gmail.com)**
 
----
-
 Thank you for supporting open customization! 🙌
+
+---
 
 ## 📝 License
 
 This project is open source under the [MIT License](LICENSE).
-
