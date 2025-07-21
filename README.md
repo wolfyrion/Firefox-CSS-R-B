@@ -89,7 +89,7 @@ Set `browser.tabs.closeWindowWithLastTab` to `false`
 
 If you like this theme and want to support its development, you can donate via PayPal:
 
-**🔗 [Donate to kyrik@gmail.com](https://www.paypal.com/donate/?business=kyrisk@gmail.com)**
+**🔗 [Donate to kyrisk@gmail.com](https://www.paypal.com/donate/?business=kyrisk@gmail.com)**
 
 Thank you for supporting open customization! 🙌
 
