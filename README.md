@@ -1,77 +1,115 @@
-# 🌙 userChrome.css – Custom Firefox UI Theme
+# Ultimate Blood Red Firefox Theme — userChrome.css
 
-### 🎨 Theme Features
+A sleek, dark **Blood Red** theme for Firefox using `userChrome.css`.  
+Designed for users who want a bold, elegant, and unified red-black look with tabs below the address bar and full support for Firefox containers.
 
-This `userChrome.css` provides a **custom dark/red UI experience** with strong visual consistency and modern usability.
-<img width="1567" height="369" alt="image" src="https://github.com/user-attachments/assets/f0ea2c00-d56d-40a1-8545-1da18e69d01c" />
+---
 
-#### 🧱 Layout & Structure
-- Tabs below the navigation bar (classic placement reminiscent of older Firefox/Australis)
-- Australis-style curved tabs with a modern touch
-- Compact tab bar with increased height and spacing
-- Removal of titlebar elements and default spacers
+## Features
 
-#### 🎨 Color & Styling
-- Custom red/dark color palette:
-  - Dark shades for background and inactive elements
-  - Deep red for highlights, active states, and hovers
-- Rounded tabs on top only for a sleek look
-- Red-accented active tab with border highlight
-- Hover effect on inactive tabs with red border and lighter background
-- Clear contrast between active and inactive tabs
+### 🎨 Blood Red Color Palette
+- Deep blood-red shades for all interactive elements.
+- Unified hover states across tabs, buttons, menus, and popups with a rich blood-red highlight.
+- Balanced black and dark gray backgrounds to emphasize the red accents.
 
-#### ➕ Tab Enhancements
-- New tab ("+") button styled to match theme
-- Pinned tabs supported and styled
-- Tab text styling for better readability and no cutoff for descenders
+### 🧱 Structural Layout
+- Tabs positioned **below the address bar** for better accessibility and a modern look.
+- Title bar completely hidden for a cleaner, minimal UI.
+- Personal Toolbar positioned below the navigation bar and above tabs.
 
-#### 📑 Bookmarks & Library Panel
-- Flat, red hover and selection backgrounds
-- Dark background for bookmarks menus
-- Square corners (no rounded menus for a sharper UI feel)
+### 🔥 Container Tabs (10 Unique Colors)
+- Visual tab context lines for all 10 Firefox container colors:
+  - Personal (blue)
+  - Work (turquoise)
+  - Banking (green)
+  - Shopping (yellow)
+  - Social (orange)
+  - News (red)
+  - Projects (pink)
+  - Gaming (purple)
+  - School (brown)
+  - Temporary (gray)
 
-#### 🖱️ Context Menus (Right-Click Menus)
-- Dark background with red hover/selection
-- Flat, square-cornered design
-- Full context menu styling for consistent UI
+### 🖥️ Tab Styling
+- Dark backgrounds with blood red highlight on the selected tab.
+- Rounded top corners for tabs (`8px` radius).
+- Smooth transition animations for hover and selection states.
+- Bold tab labels on the active tab for easy recognition.
 
+### 🔘 Toolbar Buttons & Controls
+- Consistent dark theme with blood-red hover highlights.
+- New tab button styled in blood red with rounded corners.
+- Tab close button with subtle gray color, highlights on hover.
 
-## 🔧 Installation Guide
+### 🔍 Address Bar & URL Bar
+- Dark background with blood red borders and focus outlines.
+- Dropdown suggestions follow the theme with blood red highlight on hover and selection.
+- Clear, readable white and gray text colors for URLs and suggestions.
 
-> ⚠️ **Note:** `userChrome.css` is an advanced customization and requires manual setup. Firefox does not support it natively by default anymore, so follow the steps carefully.
+### 📚 Bookmarks Toolbar
+- Dark background with subtle borders.
+- Styled toolbar buttons with smooth hover transitions and rounded edges.
+- Supports both Personal Toolbar and Other Bookmarks.
 
-### 1. Enable `userChrome.css` Support in Firefox
+### 📋 Menus & Popups
+- Dark backgrounds with blood red borders.
+- Menu items use gray text, turning white on hover or selection with blood red backgrounds.
+- Main menubar menus highlight in blood red when open.
 
-1. Open Firefox and go to `about:config`
-2. Search for:  
-toolkit.legacyUserProfileCustomizations.stylesheets
-3. Set it to `true`.
+### ⬆️ Scroll Buttons
+- Styled with dark backgrounds.
+- Smooth transitions on hover states with blood red hover color.
 
-### 2. Locate Your Firefox Profile Folder
+### 🌙 Dark Mode Compatibility
+- Adjusts black background tones to pure black or dark gray based on OS-level dark mode preferences.
 
-1. Go to `about:support`
-2. Under **"Profile Folder"**, click **"Open Folder"** (or **"Show in Finder"** on macOS)
+---
 
-### 3. Set Up the Chrome Folder
+## Installation
 
-1. Inside your profile folder, create a new folder named `chrome` (if it doesn't already exist)
-2. Place the `userChrome.css` file into this `chrome` folder
+1. Enable `userChrome.css` support in Firefox:
+   - Go to `about:config`
+   - Set `toolkit.legacyUserProfileCustomizations.stylesheets` to `true`
 
-Your Firefox Profile/
-└── chrome/
-└── userChrome.css
+2. Locate your Firefox profile folder:
+   - Open `about:support`
+   - Click **Profile Folder** > **Open Folder**
 
+3. Create a `chrome` folder if it doesn’t exist.
 
-### 4. Restart Firefox
+4. Save the provided `userChrome.css` file inside the `chrome` folder.
 
-Close and reopen Firefox to apply your new custom theme.
+5. Restart Firefox.
 
+---
 
-### 5. Apply the Recommended Firefox Theme (Optional but Recommended)
+## Customization
 
-To make the UI **look awesome**, install this matching theme from Firefox Add-ons:
+- Modify colors via CSS variables under the `:root` selector for quick theme tweaks.
+- Adjust tab height, radius, and transition speed in the variables for a personalized UI.
+- Container colors are fully customizable.
 
-🎨 **[Black Red Mood](https://addons.mozilla.org/en-US/firefox/addon/black-red-mood/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)**
+---
+
+## Screenshots
+
+*(Add screenshots here to showcase the theme in action.)*
+
+---
+
+## Contributing
+
+Feel free to submit pull requests or issues to improve this theme!
+
+---
+
+## License
+
+MIT License © [Your Name or GitHub Username]
+
+---
+
+*Enjoy your new blood red Firefox experience!*  
 
 
 ### 6. Additional Tweaks (Optional)
